@@ -98,6 +98,6 @@ app.post('/upload', function(req, res){
   form.parse(req); // parse the incoming request containing the form data
 });
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(80, function(){
   console.log('Express: Server listening on port');
 });
